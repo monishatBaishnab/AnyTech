@@ -1,7 +1,21 @@
 @import "tailwindcss";
 
-@layer utilities{
-    .container{
-        @apply max-w-screen-xl mx-auto px-10
-    }
+@layer utilities {
+  .container {
+    @apply max-w-screen-xl mx-auto px-10;
+  }
+}
+
+@theme {
+  --color-radiance-50: #eff8ff;
+  --color-radiance-100: #daf0ff;
+  --color-radiance-200: #bde5ff;
+  --color-radiance-300: #90d6ff;
+  --color-radiance-400: #5cbdfe;
+  --color-radiance-500: #369ffb;
+  --color-radiance-600: #1f80f0;
+  --color-radiance-700: #186add;
+  --color-radiance-800: #1a55b3;
+  --color-radiance-900: #1b4a8d;
+  --color-radiance-950: #152e56;
 }
