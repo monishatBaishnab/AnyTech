@@ -135,7 +135,7 @@ const Navbar = () => {
       <div
         className={`transition-all ${
           headerPos === "static"
-            ? ""
+            ? "absolute"
             : "fixed inset-x-0 top-0 z-50 bg-white animate-fadeInDown shadow-md"
         } ${lastScrollTop == 0 ? "fixed inset-x-0 top-0 z-50" : ""}`}
       >
